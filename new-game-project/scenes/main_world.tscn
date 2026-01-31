@@ -8,6 +8,7 @@
 [node name="MainWorld" type="Node2D" unique_id=381068748]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=30622069]
+visible = false
 script = ExtResource("1_tt5ry")
 
 [node name="Inventory" parent="CanvasLayer" unique_id=517708988 instance=ExtResource("1_6x5uh")]
@@ -23,9 +24,10 @@ offset_bottom = 29.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Node2D" parent="." unique_id=1000164670 instance=ExtResource("3_bdp8l")]
+[node name="WorldView" parent="." unique_id=1000164670 instance=ExtResource("3_bdp8l")]
 position = Vector2(55, -96)
 
 [node name="Player" parent="." unique_id=740609258 instance=ExtResource("4_jj0au")]
+position = Vector2(97, -58)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=698431028]
