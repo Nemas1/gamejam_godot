@@ -1927,13 +1927,11 @@ texture = ExtResource("45_eqgo3")
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y1k20"]
-load_path = "res://.godot/imported/Window_1_broken_wood.png-485c42503f1d3f09e22da2f916550981.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d0xlp"]
 texture = SubResource("CompressedTexture2D_y1k20")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nrp4b"]
-load_path = "res://.godot/imported/Window_2_broken_wood.png-f4834729f86fc29d5a861b630f9cfda8.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uveui"]
 texture = SubResource("CompressedTexture2D_nrp4b")
@@ -1944,37 +1942,31 @@ texture_region_size = Vector2i(14, 14)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ee84b"]
-load_path = "res://.godot/imported/Window_3_wood.png-8ea27c5e80e64131fbe4d42617d56f9b.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dq2cq"]
 texture = SubResource("CompressedTexture2D_ee84b")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p43s2"]
-load_path = "res://.godot/imported/Window_4_wood.png-a8612ca5c7b89c128ea7633faceaacff.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_24jsh"]
 texture = SubResource("CompressedTexture2D_p43s2")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m06gf"]
-load_path = "res://.godot/imported/Window_5_Boarded-up_wood.png-f2ae1b8c9e74698f768823820015b7c5.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gvgdx"]
 texture = SubResource("CompressedTexture2D_m06gf")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8wmvw"]
-load_path = "res://.godot/imported/Window_6_Boarded-up_wood.png-527028eaebacebb4513cca88b8c7399e.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmhs8"]
 texture = SubResource("CompressedTexture2D_8wmvw")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ly0yk"]
-load_path = "res://.godot/imported/Window_7_broken_gray.png-231d93dafa5e0cb215cbc2183b09ad65.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8fjbs"]
 texture = SubResource("CompressedTexture2D_ly0yk")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tyq3p"]
-load_path = "res://.godot/imported/Window_8_broken_gray.png-491710bc447eb771906aa264fb8265de.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e4qbs"]
 texture = SubResource("CompressedTexture2D_tyq3p")
@@ -1982,13 +1974,11 @@ texture_region_size = Vector2i(15, 15)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_511ld"]
-load_path = "res://.godot/imported/Window_9_gray.png-8f1cc761663550fc4fbb1ae9a3623610.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3556e"]
 texture = SubResource("CompressedTexture2D_511ld")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_x618m"]
-load_path = "res://.godot/imported/Window_10_gray.png-ac747feb6dbfbf5dab19b31a11522085.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n7m8k"]
 texture = SubResource("CompressedTexture2D_x618m")
@@ -1996,13 +1986,11 @@ texture_region_size = Vector2i(15, 15)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pu4gb"]
-load_path = "res://.godot/imported/Window_11_Boarded-up_gray.png-168a6095a8b09ec0d802d0619d1600d8.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ajj7d"]
 texture = SubResource("CompressedTexture2D_pu4gb")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gig5t"]
-load_path = "res://.godot/imported/Window_12_Boarded-up_gray.png-bdc9c7fda41b366b9b54454e26a8f22f.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p5fei"]
 texture = SubResource("CompressedTexture2D_gig5t")
@@ -2013,49 +2001,41 @@ texture = ExtResource("47_5tcl1")
 1:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yf2da"]
-load_path = "res://.godot/imported/Window_13_Broken_Beige.png-a26bb050f9e9592565f17f3b54ec0e63.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_linlf"]
 texture = SubResource("CompressedTexture2D_yf2da")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sc3j5"]
-load_path = "res://.godot/imported/Window_14_Broken_Beige.png-76492657dd6609de4acb3018cf3f0c94.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ipjs0"]
 texture = SubResource("CompressedTexture2D_sc3j5")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n7ih3"]
-load_path = "res://.godot/imported/Window_15_Beige.png-272f8fd08c9711fa2921e02df490d19d.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3p3j4"]
 texture = SubResource("CompressedTexture2D_n7ih3")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pjqid"]
-load_path = "res://.godot/imported/Window_16_Beige.png-c47dd2146608da5270e5f4e3d3bd7be9.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oti4u"]
 texture = SubResource("CompressedTexture2D_pjqid")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nkcn0"]
-load_path = "res://.godot/imported/Window_17_Boarded-up_Beige.png-adf6e29f6ccf2e216e1f8f26205f5b59.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_twaox"]
 texture = SubResource("CompressedTexture2D_nkcn0")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_g0ogk"]
-load_path = "res://.godot/imported/Window_18_Boarded-up_Beige.png-2495fbfdc3748792c8668812b7e4f3e0.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w8gjy"]
 texture = SubResource("CompressedTexture2D_g0ogk")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qrlv7"]
-load_path = "res://.godot/imported/Window_19_gray.png-5d7db53ffcbc3dff606944a881261676.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hyr5b"]
 texture = SubResource("CompressedTexture2D_qrlv7")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ugmxl"]
-load_path = "res://.godot/imported/Window_20_open_gray.png-5b6a1b3bc6b5a95e10c374836006f00e.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0kt1j"]
 texture = SubResource("CompressedTexture2D_ugmxl")
@@ -2063,7 +2043,6 @@ texture_region_size = Vector2i(16, 14)
 0:0/0 = 0
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8ti38"]
-load_path = "res://.godot/imported/Window_21_open_Boarded-up.png-6c9f319cfd6927e54a771d1dd94bf51b.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_irccs"]
 texture = SubResource("CompressedTexture2D_8ti38")
