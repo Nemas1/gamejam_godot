@@ -767,3 +767,5 @@ text = "Exit"
 layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
+
+[node name="Camera2D" type="Camera2D" parent="TextEdit" unique_id=1552775553]
