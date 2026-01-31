@@ -20,8 +20,3 @@ custom_minimum_size = Vector2(23, 22)
 layout_mode = 0
 offset_right = 23.0
 offset_bottom = 22.0
-
-[node name="Panel" type="Panel" parent="CenterContainer" unique_id=1852980990]
-layout_mode = 2
-
-[node name="item" type="Sprite2D" parent="CenterContainer/Panel" unique_id=805500157]

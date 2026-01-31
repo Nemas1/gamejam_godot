@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cw50oxfunshwh"]
+
+[ext_resource type="Script" uid="uid://1shno7e82kri" path="res://scenes/ui/item_stack.gd" id="1_bohsi"]
+
+[node name="Panel" type="Panel" unique_id=1628063356]
+script = ExtResource("1_bohsi")
+
+[node name="item" type="Sprite2D" parent="." unique_id=1952841769]

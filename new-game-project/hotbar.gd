@@ -1,10 +1,7 @@
 extends HBoxContainer
+class_name Hotbar
 
-@onready var inventory: Inventory = preload("res://player_inventory.tres")
-@onready var slots: Array = get_children()
+@export var slot: HotbarSlot
 
-func update() -> void:
-	for i in range(slots.size()):
-		var inventory_slot: InventoryItem = inventory.slots[i]
-		slots[i].update_to_slot(inventory_slot)
-	
+func set_item(from_inventory_slot: InventorySlot):
+	slot.set_item(from_inventory_slot)
