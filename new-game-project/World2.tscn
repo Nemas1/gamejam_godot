@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://iak6fbg2dqtc"]
 
-[ext_resource type="Texture2D" uid="uid://chuk0cyybx13f" path="res://assets/tiles/CosmicLegacy_PetricakeGamesPNG.png" id="1_drml3"]
-[ext_resource type="Texture2D" uid="uid://b1r5owiyaapwq" path="res://assets/tiles/Zombie Apocalypse Tileset Reference.png" id="2_32lcs"]
+[ext_resource type="Texture2D" path="res://assets/tiles/CosmicLegacy_PetricakeGamesPNG.png" id="1_drml3"]
+[ext_resource type="Texture2D" path="res://assets/tiles/Zombie Apocalypse Tileset Reference.png" id="2_32lcs"]
 [ext_resource type="PackedScene" uid="uid://d30ebo7uakvax" path="res://player.tscn" id="4_2mcl5"]
-[ext_resource type="PackedScene" uid="uid://e3ar65my3woy" path="res://node_2d.tscn" id="4_d3xwa"]
+[ext_resource type="PackedScene" uid="uid://4pqund3nukl7" path="res://node_2d.tscn" id="4_d3xwa"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_32lcs"]
 texture = ExtResource("1_drml3")
