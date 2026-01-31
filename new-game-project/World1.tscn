@@ -2295,7 +2295,8 @@ sources/26 = SubResource("TileSetAtlasSource_krtxd")
 sources/27 = SubResource("TileSetAtlasSource_6nsrs")
 sources/28 = SubResource("TileSetAtlasSource_cpcqq")
 
-[sub_resource type="SegmentShape2D" id="SegmentShape2D_by73t"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_by73t"]
+radius = 20.024984
 
 [node name="WorldView" type="Node2D" unique_id=1000164670]
 
@@ -2316,5 +2317,8 @@ tile_set = SubResource("TileSet_3ncni")
 tile_map_data = PackedByteArray("AAAYABwAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_vl1m4")
 
-[node name="entrance" type="CollisionShape2D" parent="." unique_id=156186458]
-shape = SubResource("SegmentShape2D_by73t")
+[node name="Area2D" type="Area2D" parent="." unique_id=1771996228]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=727094688]
+position = Vector2(984, 423)
+shape = SubResource("CircleShape2D_by73t")
