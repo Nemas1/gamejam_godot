@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dg78bfxd88tw6"
-path="res://.godot/imported/Inventory_1_Scrollbar.png-faa587427507f0947040fa88efc4e16d.ctex"
+uid="uid://cpwwfdlj7quj2"
+path="res://.godot/imported/Inventory_Close-Sheet2.png-e938f7aab3933b9d373080c843cbcacf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/Inventory_1_Scrollbar.png"
-dest_files=["res://.godot/imported/Inventory_1_Scrollbar.png-faa587427507f0947040fa88efc4e16d.ctex"]
+source_file="res://assets/ui/inv_png/Inventory_Close-Sheet2.png"
+dest_files=["res://.godot/imported/Inventory_Close-Sheet2.png-e938f7aab3933b9d373080c843cbcacf.ctex"]
 
 [params]
 

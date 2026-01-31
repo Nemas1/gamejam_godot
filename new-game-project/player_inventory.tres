@@ -1,8 +1,23 @@
 [gd_resource type="Resource" script_class="Inventory" format=3 uid="uid://bhmjxyeoecbww"]
 
+<<<<<<< HEAD
 [ext_resource type="Script" path="res://InvItem.gd" id="1_dq8yv"]
 [ext_resource type="Script" path="res://inventory.gd" id="2_ar22a"]
 
 [resource]
 script = ExtResource("2_ar22a")
 items = Array[ExtResource("1_dq8yv")]([null, null])
+=======
+[ext_resource type="Script" uid="uid://bvpv76hycv0yo" path="res://InvItem.gd" id="1_dq8yv"]
+[ext_resource type="Script" uid="uid://cgddealqjkww6" path="res://inventory.gd" id="2_ar22a"]
+[ext_resource type="Resource" path="res://assets/items/flashlight1.tres" id="2_ui3lh"]
+[ext_resource type="Resource" path="res://assets/items/flashlight2.tres" id="3_rxmv5"]
+[ext_resource type="Resource" path="res://assets/items/shovel.tres" id="4_aogpw"]
+[ext_resource type="Resource" path="res://assets/items/fireextinguisher.tres" id="5_xdjsc"]
+[ext_resource type="Resource" path="res://assets/items/medkit.tres" id="6_sk28p"]
+
+[resource]
+script = ExtResource("2_ar22a")
+items = Array[ExtResource("1_dq8yv")]([ExtResource("2_ui3lh"), ExtResource("3_rxmv5"), ExtResource("4_aogpw"), ExtResource("5_xdjsc"), ExtResource("6_sk28p"), null, null, ExtResource("6_sk28p"), ExtResource("4_aogpw"), null])
+metadata/_custom_type_script = "uid://cgddealqjkww6"
+>>>>>>> 2db9ca8029f799a112ad91c8d766278b22ba57c1

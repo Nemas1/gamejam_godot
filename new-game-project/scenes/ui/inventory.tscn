@@ -1,21 +1,30 @@
 [gd_scene format=3 uid="uid://jsawslw88heg"]
 
-[ext_resource type="Texture2D" uid="uid://b2esuhlauol7y" path="res://assets/ui/Inventory_1.png" id="1_s6ek7"]
+[ext_resource type="Texture2D" uid="uid://b2esuhlauol7y" path="res://assets/ui/inv_png/Inventory_1.png" id="1_s6ek7"]
 [ext_resource type="Script" uid="uid://dlfjkkxrco165" path="res://scenes/ui/inventory.gd" id="1_xeaml"]
 [ext_resource type="PackedScene" uid="uid://cm5d8w17hg2im" path="res://scenes/ui/slot.tscn" id="2_avmd0"]
 
 [node name="Inventory" type="Control" unique_id=517708988]
-custom_minimum_size = Vector2(153, 58)
 layout_mode = 3
 anchors_preset = 0
-offset_right = 153.0
-offset_bottom = 58.0
+offset_right = 185.0
+offset_bottom = 87.0
 script = ExtResource("1_xeaml")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=470718252]
-layout_mode = 0
-offset_right = 153.0
-offset_bottom = 58.0
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -50.0
+offset_right = 100.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("1_s6ek7")
 
 [node name="GridContainer" type="GridContainer" parent="NinePatchRect" unique_id=1842012565]
@@ -25,10 +34,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -67.0
-offset_top = -22.0
-offset_right = 67.0
-offset_bottom = 22.0
+offset_left = -79.0
+offset_top = -24.0
+offset_right = 79.0
+offset_bottom = 24.0
 grow_horizontal = 2
 grow_vertical = 2
 columns = 6

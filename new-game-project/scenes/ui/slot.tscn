@@ -1,13 +1,27 @@
 [gd_scene format=3 uid="uid://cm5d8w17hg2im"]
 
-[ext_resource type="Texture2D" uid="uid://dnx5tiqucn6th" path="res://assets/ui/Inventory-Cell.png" id="1_jkamp"]
+[ext_resource type="Texture2D" uid="uid://dnx5tiqucn6th" path="res://assets/ui/inv_png/Inventory-Cell.png" id="1_jkamp"]
+[ext_resource type="Script" uid="uid://bx6vdb4kv5j5t" path="res://scenes/ui/slot.gd" id="1_sad2q"]
 
 [node name="Panel" type="Panel" unique_id=1382592755]
 self_modulate = Color(1, 1, 1, 0)
-custom_minimum_size = Vector2(19, 20)
-offset_right = 19.0
-offset_bottom = 20.0
+custom_minimum_size = Vector2(23, 22)
+offset_right = 23.0
+offset_bottom = 22.0
+script = ExtResource("1_sad2q")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=49986583]
+[node name="background" type="Sprite2D" parent="." unique_id=49986583]
+scale = Vector2(1.211, 1.1)
 texture = ExtResource("1_jkamp")
 centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1038026278]
+custom_minimum_size = Vector2(23, 22)
+layout_mode = 0
+offset_right = 23.0
+offset_bottom = 22.0
+
+[node name="Panel" type="Panel" parent="CenterContainer" unique_id=1852980990]
+layout_mode = 2
+
+[node name="item" type="Sprite2D" parent="CenterContainer/Panel" unique_id=805500157]

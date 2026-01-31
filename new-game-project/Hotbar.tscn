@@ -1,5 +1,30 @@
 [gd_scene format=3 uid="uid://cdkpfi3eprihb"]
 
-[node name="Panel" type="Panel" unique_id=899774626]
-offset_right = 40.0
-offset_bottom = 40.0
+[ext_resource type="Script" uid="uid://dfv07qkbm2suq" path="res://hotbar.gd" id="1_qbt7h"]
+[ext_resource type="PackedScene" uid="uid://c2xchaac5hm0g" path="res://hotbar_slot.tscn" id="2_qbt7h"]
+
+[node name="Hotbar" type="HBoxContainer" unique_id=118668880]
+offset_right = 134.0
+offset_bottom = 20.0
+script = ExtResource("1_qbt7h")
+
+[node name="hotbar_slot" parent="." unique_id=470398891 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot2" parent="." unique_id=2113074683 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot3" parent="." unique_id=1753895266 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot4" parent="." unique_id=113374407 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot5" parent="." unique_id=1642110911 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot6" parent="." unique_id=523611377 instance=ExtResource("2_qbt7h")]
+layout_mode = 2
+
+[node name="hotbar_slot7" parent="." unique_id=1811956260 instance=ExtResource("2_qbt7h")]
+layout_mode = 2

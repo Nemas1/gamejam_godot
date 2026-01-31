@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk28dau4l3qkv"
-path="res://.godot/imported/Inventory-Chosen.png-f9dc64525f4e00833df16c4670250dcc.ctex"
+uid="uid://c805lcngy3uqq"
+path="res://.godot/imported/Inventory_Scrollbox_1.png-fafcbe4a4ccb6594c3ed95db818dc64c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/Inventory-Chosen.png"
-dest_files=["res://.godot/imported/Inventory-Chosen.png-f9dc64525f4e00833df16c4670250dcc.ctex"]
+source_file="res://assets/ui/inv_png/Inventory_Scrollbox_1.png"
+dest_files=["res://.godot/imported/Inventory_Scrollbox_1.png-fafcbe4a4ccb6594c3ed95db818dc64c.ctex"]
 
 [params]
 
