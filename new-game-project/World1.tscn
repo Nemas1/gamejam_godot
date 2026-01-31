@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://bkdauxe3suj7h" path="res://assets/tiles/Background_Dark-Green_TileSet.png" id="1_uoqbt"]
 [ext_resource type="Texture2D" uid="uid://dunp3xk8no427" path="res://assets/tiles/Buildings_gray_TileSet.png" id="2_3etub"]
-[ext_resource type="Texture2D" uid="uid://g570rot1vac5" path="res://assets/character/Character_down_run_no-hands-Sheet6.png" id="2_43o5b"]
 [ext_resource type="Texture2D" uid="uid://deety8l45v3im" path="res://assets/Objects/Container/Container_10_Green_Vertical_Overgrown_Dark-Green.png" id="3_6falm"]
 [ext_resource type="Texture2D" uid="uid://vtv0lp1rfeci" path="res://assets/Objects/Buildings/Awning_orange_5.png" id="4_0ltij"]
 [ext_resource type="Texture2D" uid="uid://3yiitw7ldw52" path="res://assets/Buildings/Air-vent_2_rusty.png" id="4_t7dde"]
@@ -1651,7 +1650,6 @@ sources/1 = SubResource("TileSetAtlasSource_3ncni")
 sources/3 = SubResource("TileSetAtlasSource_cvkla")
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jkhl2"]
-load_path = "res://.godot/imported/Air-vent_1.png-ad87a23a2e1d3bda2ac26ccff4fd1922.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_05u6n"]
 texture = SubResource("CompressedTexture2D_jkhl2")
@@ -2240,7 +2238,7 @@ sources/26 = SubResource("TileSetAtlasSource_krtxd")
 sources/27 = SubResource("TileSetAtlasSource_6nsrs")
 sources/28 = SubResource("TileSetAtlasSource_cpcqq")
 
-[node name="Node2D" type="Node2D" unique_id=1000164670]
+[node name="WorldView" type="Node2D" unique_id=1000164670]
 
 [node name="Background" type="TileMapLayer" parent="." unique_id=604194180]
 position = Vector2(2, 16)
@@ -2258,9 +2256,3 @@ tile_set = SubResource("TileSet_3ncni")
 [node name="Nature" type="TileMapLayer" parent="." unique_id=1839673831]
 tile_map_data = PackedByteArray("AAAYABwAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_vl1m4")
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=630861204]
-position = Vector2(8, 9)
-texture = ExtResource("2_43o5b")
-region_enabled = true
-region_rect = Rect2(0, 0, 16, 17)
