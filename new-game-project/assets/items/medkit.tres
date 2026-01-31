@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="InventoryItem" format=3 uid="uid://cyb0rqjtvyohv"]
 
-[ext_resource type="Script" path="res://InvItem.gd" id="1_adxnj"]
-[ext_resource type="Texture2D" uid="uid://b51aqdj4x8si4" path="res://assets/items/medkit.png" id="2_1l6vg"]
+[ext_resource type="Script" uid="uid://bvpv76hycv0yo" path="res://InvItem.gd" id="1_adxnj"]
+
+[sub_resource type="Resource" id="Resource_r3ect"]
+metadata/__load_path__ = "res://assets/items/medkit.png"
 
 [resource]
 script = ExtResource("1_adxnj")
 name = "medkit"
-texture = ExtResource("2_1l6vg")
+texture = SubResource("Resource_r3ect")

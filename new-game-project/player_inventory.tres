@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Inventory" format=3 uid="uid://dq12omknrggcx"]
 
-[ext_resource type="Script" path="res://InvItem.gd" id="1_dq8yv"]
+[ext_resource type="Script" uid="uid://bvpv76hycv0yo" path="res://InvItem.gd" id="1_dq8yv"]
 [ext_resource type="Script" uid="uid://cgddealqjkww6" path="res://inventory.gd" id="2_ar22a"]
-[ext_resource type="Resource" uid="uid://77bnk85fdwhu" path="res://assets/items/flashlight1.tres" id="2_ui3lh"]
-[ext_resource type="Resource" uid="uid://bk81psd1fxmbh" path="res://assets/items/flashlight2.tres" id="3_rxmv5"]
-[ext_resource type="Resource" uid="uid://rxqhsq8bkc1w" path="res://assets/items/shovel.tres" id="4_aogpw"]
-[ext_resource type="Resource" uid="uid://cp0hd6o0786rw" path="res://assets/items/fireextinguisher.tres" id="5_xdjsc"]
-[ext_resource type="Resource" uid="uid://cyb0rqjtvyohv" path="res://assets/items/medkit.tres" id="6_sk28p"]
+[ext_resource type="Resource" path="res://assets/items/flashlight1.tres" id="2_ui3lh"]
+[ext_resource type="Resource" path="res://assets/items/flashlight2.tres" id="3_rxmv5"]
+[ext_resource type="Resource" path="res://assets/items/shovel.tres" id="4_aogpw"]
+[ext_resource type="Resource" path="res://assets/items/fireextinguisher.tres" id="5_xdjsc"]
+[ext_resource type="Resource" path="res://assets/items/medkit.tres" id="6_sk28p"]
 
 [resource]
 script = ExtResource("2_ar22a")
