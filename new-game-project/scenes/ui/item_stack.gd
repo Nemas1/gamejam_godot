@@ -1,5 +1,4 @@
 extends Panel
-
 class_name ItemStack
 
 @onready var itemSprite: Sprite2D = $item
@@ -7,7 +6,11 @@ class_name ItemStack
 var inventorySlot: InventorySlot
 
 func update():
-	if !inventorySlot || !inventorySlot.item:
+	if not itemSprite:
+		push_error("ItemStack: itemSprite node not found!")
+		return
+
+	if not inventorySlot or not inventorySlot.item:
 		itemSprite.visible = false
 		return
 

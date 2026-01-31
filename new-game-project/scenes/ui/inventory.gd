@@ -6,12 +6,11 @@ signal closed
 var isOpen: bool = false
 
 @export var player: Player
-@export var hotbar: Hotbar
+@onready var hotbar: Hotbar = get_node("../Hotbar")  # adjust path to your Hotbar node
 @onready var ItemStackClass = preload("res://scenes/ui/itemStack.tscn")
 @onready var slots: Array = $NinePatchRect/GridContainer.get_children()
 
 var itemInHand: ItemStack = null
-
 
 func _ready():
 	connectSlots()
@@ -22,9 +21,15 @@ func _process(delta: float) -> void:
 
 func connectSlots():
 	for slot in slots:
+		# Make sure slot has a pressed signal
+		if not slot.has_signal("pressed"):
+			push_warning("Slot has no pressed signal!")
+			continue
+
 		var callable = Callable(onSlotClicked)
 		callable = callable.bind(slot)
 		slot.pressed.connect(callable)
+
 
 func update():
 	for i in range(min(player.inventory.slots.size(), slots.size())):
@@ -38,7 +43,6 @@ func update():
 			
 		itemStack.inventorySlot = inventorySlot
 		itemStack.update()
-	
 
 func open():
 	visible = true
@@ -51,15 +55,21 @@ func close():
 	closed.emit()
 
 func onSlotClicked(slot):
-	if !slot.itemStack:
+	if not slot.itemStack:
+		push_warning("Slot has no itemStack")
 		return
 
+	if hotbar == null:
+		push_error("Hotbar reference is null!")
+		return
+
+	# Update hotbar to show selected item
 	hotbar.set_item(slot.itemStack.inventorySlot)
+
 
 func updateItemInHand():
 	if !itemInHand: return
-	
 	itemInHand.global_position = get_global_mouse_position()
-	
+
 func _input(event):
 	updateItemInHand()
