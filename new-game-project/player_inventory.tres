@@ -1,5 +1,9 @@
 [gd_resource type="Resource" script_class="Inventory" format=3 uid="uid://bhmjxyeoecbww"]
 
+<<<<<<< Updated upstream
+=======
+[ext_resource type="Script" path="res://InvItem.gd" id="1_dq8yv"]
+>>>>>>> Stashed changes
 [ext_resource type="Script" uid="uid://cgddealqjkww6" path="res://inventory.gd" id="2_ar22a"]
 [ext_resource type="Script" uid="uid://yl73xayhxupq" path="res://inventorySlot.gd" id="2_dq8yv"]
 [ext_resource type="Resource" uid="uid://ns3oj1j50qnd" path="res://inventory/flash2.tres" id="3_rxmv5"]

@@ -81,6 +81,10 @@
 [ext_resource type="Texture2D" uid="uid://b3yb76obicymk" path="res://assets/Objects/Nature/Bleak-Yellow/Tree_10_Small-oak_Bleak-Yellow.png" id="79_xf0bt"]
 [ext_resource type="Texture2D" uid="uid://ciq1bwxx60fww" path="res://assets/Objects/Nature/Flowers_Mashrooms_Other-nature-stuff/Tree_4_Dry_Green.png" id="80_8emfv"]
 [ext_resource type="Texture2D" uid="uid://gjpd48mhybq4" path="res://assets/Objects/Nature/Flowers_Mashrooms_Other-nature-stuff/Tree-trunk_1_Green.png" id="81_wyv8h"]
+<<<<<<< Updated upstream
+=======
+[ext_resource type="PackedScene" uid="uid://e3ar65my3woy" path="res://node_2d.tscn" id="82_mosxj"]
+>>>>>>> Stashed changes
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_43o5b"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -2313,3 +2317,9 @@ tile_set = SubResource("TileSet_3ncni")
 [node name="Nature" type="TileMapLayer" parent="." unique_id=1839673831]
 tile_map_data = PackedByteArray("AAAYABwAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_vl1m4")
+<<<<<<< Updated upstream
+=======
+
+[node name="Node2D" parent="." unique_id=802960908 instance=ExtResource("82_mosxj")]
+position = Vector2(985, 418)
+>>>>>>> Stashed changes
