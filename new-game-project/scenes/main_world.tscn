@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://q7oig8q2lsbn"]
+
+[ext_resource type="PackedScene" uid="uid://jsawslw88heg" path="res://scenes/ui/inventory.tscn" id="1_6x5uh"]
+[ext_resource type="Script" uid="uid://b6rq6x4ip7rdh" path="res://scenes/canvas_layer.gd" id="1_tt5ry"]
+
+[node name="MainWorld" type="Node2D" unique_id=381068748]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=30622069]
+script = ExtResource("1_tt5ry")
+
+[node name="Inventory" parent="CanvasLayer" unique_id=517708988 instance=ExtResource("1_6x5uh")]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -76.5
+offset_top = -29.0
+offset_right = 76.5
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
