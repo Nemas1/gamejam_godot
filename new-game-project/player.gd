@@ -25,3 +25,6 @@ func animation_handler(direction: Vector2):
 		animated_sprite_2d.play("walk_up")
 	else:
 		animated_sprite_2d.play("idle")
+		
+func _ready():
+	add_to_group("player")

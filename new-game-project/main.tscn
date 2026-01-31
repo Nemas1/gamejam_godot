@@ -30,3 +30,6 @@ player = NodePath("../../Player")
 [node name="Hotbar" parent="CanvasLayer" unique_id=118668880 instance=ExtResource("4_lquwl")]
 
 [node name="Player" parent="." unique_id=740609258 instance=ExtResource("4_1bvp3")]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=87990401]
+color = Color(0.5729883, 0.5729883, 0.5729883, 1)
