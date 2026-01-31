@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dlfjkkxrco165" path="res://scenes/ui/inventory.gd" id="1_68nve"]
 [ext_resource type="Texture2D" uid="uid://b2esuhlauol7y" path="res://assets/ui/Inventory_1.png" id="2_xn0n2"]
 [ext_resource type="PackedScene" uid="uid://cm5d8w17hg2im" path="res://scenes/ui/slot.tscn" id="3_f8gav"]
+[ext_resource type="Script" uid="uid://chh2wxbtjq1p7" path="res://shop_handler.gd" id="3_xn0n2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qejid"]
 
@@ -16,7 +17,7 @@ script = ExtResource("1_68nve")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=470718252]
 layout_mode = 0
-offset_right = 186.0
+offset_right = 185.0
 offset_bottom = 136.0
 texture = ExtResource("2_xn0n2")
 
@@ -34,6 +35,7 @@ offset_bottom = 59.0
 grow_horizontal = 2
 grow_vertical = 2
 columns = 4
+script = ExtResource("3_xn0n2")
 
 [node name="Panel" parent="NinePatchRect/GridContainer" unique_id=1382592755 instance=ExtResource("3_f8gav")]
 layout_mode = 2
@@ -102,9 +104,45 @@ anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
 offset_left = -22.0
+offset_top = 1.0
 offset_right = 22.0
-offset_bottom = 33.0
+offset_bottom = 34.0
 grow_horizontal = 2
+theme_override_colors/font_color = Color(0.17254902, 0.11372549, 0.20784314, 1)
 text = "SHOP"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Label" type="Label" parent="NinePatchRect/Label" unique_id=13483208]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -22.0
+offset_top = -2.0
+offset_right = 22.0
+offset_bottom = 31.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.7647059, 0.7176471, 0.6431373, 1)
+text = "SHOP"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel16" parent="NinePatchRect" unique_id=111587691 instance=ExtResource("3_f8gav")]
+layout_mode = 0
+offset_left = 123.0
+offset_top = 33.0
+offset_right = 142.0
+offset_bottom = 53.0
+scale = Vector2(2, 2)
+
+[node name="Line2D2" type="Line2D" parent="NinePatchRect" unique_id=517207057]
+points = PackedVector2Array(109, 36, 109, 121)
+width = 1.0
+default_color = Color(0.17254902, 0.11372549, 0.20784314, 1)
+
+[node name="Line2D2" type="Line2D" parent="NinePatchRect/Line2D2" unique_id=335753045]
+position = Vector2(1, 0)
+points = PackedVector2Array(109, 36, 109, 121)
+width = 1.0
+default_color = Color(0.72156864, 0.68235296, 0.5882353, 1)
