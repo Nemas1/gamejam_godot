@@ -1,20 +1,33 @@
 [gd_resource type="Resource" script_class="Inventory" format=3 uid="uid://bhmjxyeoecbww"]
 
-[ext_resource type="Script" path="res://InvItem.gd" id="1_dq8yv"]
 [ext_resource type="Script" uid="uid://cgddealqjkww6" path="res://inventory.gd" id="2_ar22a"]
-[ext_resource type="Texture2D" uid="uid://vgo0m2186y15" path="res://assets/items/prozektorius.png" id="2_ui3lh"]
+[ext_resource type="Script" uid="uid://yl73xayhxupq" path="res://inventorySlot.gd" id="2_dq8yv"]
 [ext_resource type="Resource" uid="uid://ns3oj1j50qnd" path="res://inventory/flash2.tres" id="3_rxmv5"]
 [ext_resource type="Resource" uid="uid://bg0y2hv2iwokf" path="res://inventory/broom.tres" id="4_aogpw"]
-[ext_resource type="Resource" uid="uid://djvd1hrtc54uj" path="res://inventory/shovel.tres" id="5_xdjsc"]
 [ext_resource type="Resource" uid="uid://dhtc81bxnxxqe" path="res://inventory/fire.tres" id="6_rxmv5"]
 [ext_resource type="Resource" uid="uid://fkagt25vi7sr" path="res://inventory/med.tres" id="7_rxmv5"]
 
-[sub_resource type="Resource" id="Resource_sk28p"]
-script = ExtResource("1_dq8yv")
-name = "flashlight1"
-texture = ExtResource("2_ui3lh")
+[sub_resource type="Resource" id="Resource_2867e"]
+script = ExtResource("2_dq8yv")
+item = ExtResource("3_rxmv5")
+metadata/_custom_type_script = "uid://yl73xayhxupq"
+
+[sub_resource type="Resource" id="Resource_ui3lh"]
+script = ExtResource("2_dq8yv")
+item = ExtResource("7_rxmv5")
+metadata/_custom_type_script = "uid://yl73xayhxupq"
+
+[sub_resource type="Resource" id="Resource_rxmv5"]
+script = ExtResource("2_dq8yv")
+item = ExtResource("6_rxmv5")
+metadata/_custom_type_script = "uid://yl73xayhxupq"
+
+[sub_resource type="Resource" id="Resource_aogpw"]
+script = ExtResource("2_dq8yv")
+item = ExtResource("4_aogpw")
+metadata/_custom_type_script = "uid://yl73xayhxupq"
 
 [resource]
 script = ExtResource("2_ar22a")
-items = Array[ExtResource("1_dq8yv")]([SubResource("Resource_sk28p"), ExtResource("3_rxmv5"), null, ExtResource("4_aogpw"), ExtResource("5_xdjsc"), ExtResource("6_rxmv5"), ExtResource("7_rxmv5"), null])
+slots = Array[ExtResource("2_dq8yv")]([SubResource("Resource_2867e"), SubResource("Resource_ui3lh"), SubResource("Resource_rxmv5"), SubResource("Resource_aogpw"), null, null, null])
 metadata/_custom_type_script = "uid://cgddealqjkww6"
