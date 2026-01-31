@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://jsawslw88heg"]
+
+[ext_resource type="Texture2D" uid="uid://b2esuhlauol7y" path="res://assets/ui/Inventory_1.png" id="1_s6ek7"]
+[ext_resource type="Script" uid="uid://dlfjkkxrco165" path="res://scenes/ui/inventory.gd" id="1_xeaml"]
+[ext_resource type="PackedScene" uid="uid://cm5d8w17hg2im" path="res://scenes/ui/slot.tscn" id="2_avmd0"]
+
+[node name="Inventory" type="Control" unique_id=517708988]
+custom_minimum_size = Vector2(153, 58)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 153.0
+offset_bottom = 58.0
+script = ExtResource("1_xeaml")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=470718252]
+layout_mode = 0
+offset_right = 153.0
+offset_bottom = 58.0
+texture = ExtResource("1_s6ek7")
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect" unique_id=1842012565]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -67.0
+offset_top = -22.0
+offset_right = 67.0
+offset_bottom = 22.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 6
+
+[node name="Panel" parent="NinePatchRect/GridContainer" unique_id=1382592755 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel2" parent="NinePatchRect/GridContainer" unique_id=257615154 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel3" parent="NinePatchRect/GridContainer" unique_id=2045721104 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel4" parent="NinePatchRect/GridContainer" unique_id=1945744011 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel5" parent="NinePatchRect/GridContainer" unique_id=791578625 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel6" parent="NinePatchRect/GridContainer" unique_id=1412859781 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel7" parent="NinePatchRect/GridContainer" unique_id=1623990345 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel8" parent="NinePatchRect/GridContainer" unique_id=435557858 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel9" parent="NinePatchRect/GridContainer" unique_id=978529257 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel10" parent="NinePatchRect/GridContainer" unique_id=2043566722 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel11" parent="NinePatchRect/GridContainer" unique_id=1367241733 instance=ExtResource("2_avmd0")]
+layout_mode = 2
+
+[node name="Panel12" parent="NinePatchRect/GridContainer" unique_id=251290256 instance=ExtResource("2_avmd0")]
+layout_mode = 2
