@@ -31,3 +31,5 @@ position = Vector2(55, -96)
 position = Vector2(97, -58)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=698431028]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=270919904]
