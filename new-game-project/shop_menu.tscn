@@ -1,0 +1,110 @@
+[gd_scene format=3 uid="uid://cmwwkeikequqt"]
+
+[ext_resource type="Script" uid="uid://dlfjkkxrco165" path="res://scenes/ui/inventory.gd" id="1_68nve"]
+[ext_resource type="Texture2D" uid="uid://b2esuhlauol7y" path="res://assets/ui/Inventory_1.png" id="2_xn0n2"]
+[ext_resource type="PackedScene" uid="uid://cm5d8w17hg2im" path="res://scenes/ui/slot.tscn" id="3_f8gav"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qejid"]
+
+[node name="ShopMenu" type="Control" unique_id=517708988]
+custom_minimum_size = Vector2(153, 58)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 186.0
+offset_bottom = 137.0
+script = ExtResource("1_68nve")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=470718252]
+layout_mode = 0
+offset_right = 186.0
+offset_bottom = 136.0
+texture = ExtResource("2_xn0n2")
+
+[node name="GridContainer" type="GridContainer" parent="NinePatchRect" unique_id=1842012565]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -84.0
+offset_top = -35.0
+offset_right = 7.0
+offset_bottom = 59.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 4
+
+[node name="Panel" parent="NinePatchRect/GridContainer" unique_id=1382592755 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_qejid")
+
+[node name="Panel2" parent="NinePatchRect/GridContainer" unique_id=257615154 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel3" parent="NinePatchRect/GridContainer" unique_id=2045721104 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel4" parent="NinePatchRect/GridContainer" unique_id=1945744011 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel5" parent="NinePatchRect/GridContainer" unique_id=791578625 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel6" parent="NinePatchRect/GridContainer" unique_id=1412859781 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel7" parent="NinePatchRect/GridContainer" unique_id=1623990345 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel8" parent="NinePatchRect/GridContainer" unique_id=435557858 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel9" parent="NinePatchRect/GridContainer" unique_id=978529257 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel10" parent="NinePatchRect/GridContainer" unique_id=2043566722 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel11" parent="NinePatchRect/GridContainer" unique_id=1367241733 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel12" parent="NinePatchRect/GridContainer" unique_id=251290256 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel13" parent="NinePatchRect/GridContainer" unique_id=710747936 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel14" parent="NinePatchRect/GridContainer" unique_id=1145360203 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel15" parent="NinePatchRect/GridContainer" unique_id=1111427881 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Panel16" parent="NinePatchRect/GridContainer" unique_id=2008925317 instance=ExtResource("3_f8gav")]
+layout_mode = 2
+
+[node name="Line2D" type="Line2D" parent="NinePatchRect" unique_id=323859920]
+position = Vector2(2, 1)
+points = PackedVector2Array(10, 27, 172, 27)
+width = 1.0
+default_color = Color(0.17254902, 0.11372549, 0.20784314, 1)
+
+[node name="Line2D" type="Line2D" parent="NinePatchRect/Line2D" unique_id=1233027384]
+position = Vector2(0, 1)
+points = PackedVector2Array(10, 27, 172, 27)
+width = 1.0
+default_color = Color(0.72156864, 0.68235296, 0.5882353, 1)
+
+[node name="Label" type="Label" parent="NinePatchRect" unique_id=332726833]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -22.0
+offset_right = 22.0
+offset_bottom = 33.0
+grow_horizontal = 2
+text = "SHOP"
+horizontal_alignment = 1
+vertical_alignment = 1
