@@ -28,8 +28,10 @@ grow_vertical = 2
 player = NodePath("../../Player")
 
 [node name="Control" parent="CanvasLayer" unique_id=1116166113 instance=ExtResource("5_lquwl")]
-offset_right = 1239.1111
-offset_bottom = 697.0
+offset_left = -39.0
+offset_top = -19.0
+offset_right = 1200.1111
+offset_bottom = 678.0
 
 [node name="Player" parent="." unique_id=740609258 instance=ExtResource("4_1bvp3")]
 
