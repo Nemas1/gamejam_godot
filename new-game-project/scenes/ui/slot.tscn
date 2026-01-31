@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dnx5tiqucn6th" path="res://assets/ui/inv_png/Inventory-Cell.png" id="1_jkamp"]
 [ext_resource type="Script" uid="uid://bx6vdb4kv5j5t" path="res://scenes/ui/slot.gd" id="1_sad2q"]
 
-[node name="Panel" type="Panel" unique_id=1382592755]
+[node name="Panel" type="Button" unique_id=687235945]
 self_modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(23, 22)
 offset_right = 23.0
