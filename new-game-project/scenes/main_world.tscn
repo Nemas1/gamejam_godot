@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://jsawslw88heg" path="res://scenes/ui/inventory.tscn" id="1_6x5uh"]
 [ext_resource type="Script" uid="uid://b6rq6x4ip7rdh" path="res://scenes/canvas_layer.gd" id="1_tt5ry"]
+[ext_resource type="PackedScene" uid="uid://cdkpfi3eprihb" path="res://hotbar.tscn" id="3_wjoj8"]
 
 [node name="MainWorld" type="Node2D" unique_id=381068748]
 
@@ -20,3 +21,16 @@ offset_right = 76.5
 offset_bottom = 29.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Hotbar" parent="CanvasLayer" unique_id=118668880 instance=ExtResource("3_wjoj8")]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -67.0
+offset_top = -20.0
+offset_right = 67.0
+offset_bottom = 0.0
+grow_horizontal = 2
+grow_vertical = 0

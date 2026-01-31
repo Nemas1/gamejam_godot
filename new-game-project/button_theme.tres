@@ -1,6 +1,7 @@
-[gd_scene format=4 uid="uid://dy6e65fm5hxca"]
+[gd_resource type="Theme" format=4 uid="uid://js8kvsrsfrd6"]
 
-[ext_resource type="Theme" uid="uid://js8kvsrsfrd6" path="res://button_theme.tres" id="1_ag3nm"]
+[ext_resource type="Texture2D" uid="uid://d4dgdv5hnoith" path="res://Blank_Not-Pressed.png" id="1_jjpe7"]
+[ext_resource type="Texture2D" uid="uid://dikhklfxp5d2n" path="res://Blank_Pressed.png" id="2_5nl6s"]
 
 [sub_resource type="Image" id="Image_5p3a5"]
 data = {
@@ -708,9 +709,25 @@ cache/0/16/0/glyphs/268435539/size = Vector2(11, 15)
 cache/0/16/0/glyphs/268435539/uv_rect = Rect2(1, 119, 11, 15)
 cache/0/16/0/glyphs/268435539/texture_idx = 0
 
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dmh0x"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7b2rg"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1, 0.1, 0.1, 0.3)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
 
-[sub_resource type="Theme" id="Theme_7b2rg"]
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_22sbv"]
+texture = ExtResource("1_jjpe7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2kni4"]
+texture = ExtResource("2_5nl6s")
+
+[resource]
 Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
 Button/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
 Button/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
@@ -730,35 +747,8 @@ Button/constants/icon_max_width = 0
 Button/constants/outline_size = 0
 Button/font_sizes/font_size = 16
 Button/fonts/font = SubResource("FontFile_0evo5")
-Button/styles/normal = SubResource("StyleBoxTexture_dmh0x")
-
-[node name="main_menu_ui" type="Control" unique_id=1842415867]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=2009552637]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme = SubResource("Theme_7b2rg")
-
-[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect" unique_id=633816903]
-layout_mode = 1
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Play" type="Button" parent="NinePatchRect/VBoxContainer" unique_id=258392033]
-layout_mode = 2
-theme = ExtResource("1_ag3nm")
-text = "Play"
-
-[node name="Exit" type="Button" parent="NinePatchRect/VBoxContainer" unique_id=1409992848]
-layout_mode = 2
-text = "Exit"
+Button/styles/disabled = SubResource("StyleBoxFlat_7b2rg")
+Button/styles/focus = SubResource("StyleBoxTexture_22sbv")
+Button/styles/hover = SubResource("StyleBoxTexture_22sbv")
+Button/styles/normal = SubResource("StyleBoxTexture_22sbv")
+Button/styles/pressed = SubResource("StyleBoxTexture_2kni4")
