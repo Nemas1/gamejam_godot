@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="InventoryItem" format=3 uid="uid://cyb0rqjtvyohv"]
 
-[ext_resource type="Script" uid="uid://bvpv76hycv0yo" path="res://InvItem.gd" id="1_adxnj"]
+[ext_resource type="Script" path="res://InvItem.gd" id="1_adxnj"]
 
 [sub_resource type="Resource" id="Resource_r3ect"]
 metadata/__load_path__ = "res://assets/items/medkit.png"
