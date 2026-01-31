@@ -1,15 +1,20 @@
-[gd_scene format=3 uid="uid://4pqund3nukl7"]
+[gd_scene format=3 uid="uid://e3ar65my3woy"]
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 [node name="Node2D" type="Node2D" unique_id=1552255469]
 =======
 [ext_resource type="Script" uid="uid://cbtxangh1jsgi" path="res://change_scene.gd" id="1_wtcfe"]
 [ext_resource type="PackedScene" uid="uid://iak6fbg2dqtc" path="res://World2.tscn" id="2_0e48y"]
+=======
+[ext_resource type="Script" uid="uid://cbtxangh1jsgi" path="res://change_scene.gd" id="1_wtcfe"]
+>>>>>>> neluzes
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0e48y"]
 radius = 36.013885
 
 [node name="Node2D" type="Node2D" unique_id=1402114565]
+<<<<<<< HEAD
 
 [node name="Area2D" type="Area2D" parent="." unique_id=2008270338]
 collision_layer = 2
@@ -21,3 +26,11 @@ shape = SubResource("CircleShape2D_0e48y")
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
 >>>>>>> Stashed changes
+=======
+script = ExtResource("1_wtcfe")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2008270338]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1839538498]
+shape = SubResource("CircleShape2D_0e48y")
+>>>>>>> neluzes
