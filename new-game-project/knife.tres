@@ -1,8 +1,6 @@
 [gd_resource type="Resource" script_class="InventoryItem" format=3 uid="uid://c3bsvgpuqcehv"]
 
-[ext_resource type="Script" uid="uid://bvpv76hycv0yo" path="res://InvItem.gd" id="1_ec1nm"]
+[ext_resource type="Script" path="res://InvItem.gd" id="1_ec1nm"]
 
 [resource]
 script = ExtResource("1_ec1nm")
-name = "Knife"
-metadata/_custom_type_script = "uid://bvpv76hycv0yo"

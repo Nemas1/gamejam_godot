@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://puq7s86o2ouu"
-path="res://.godot/imported/kastuvas.png-439fc9db4a161f1c1c479e3ee91299ff.ctex"
+uid="uid://cpwwfdlj7quj2"
+path="res://.godot/imported/Inventory_Close-Sheet2.png-e938f7aab3933b9d373080c843cbcacf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/kastuvas.png"
-dest_files=["res://.godot/imported/kastuvas.png-439fc9db4a161f1c1c479e3ee91299ff.ctex"]
+source_file="res://assets/ui/inv_png/Inventory_Close-Sheet2.png"
+dest_files=["res://.godot/imported/Inventory_Close-Sheet2.png-e938f7aab3933b9d373080c843cbcacf.ctex"]
 
 [params]
 

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InventoryItem" format=3 uid="uid://cp0hd6o0786rw"]
+
+[ext_resource type="Script" path="res://InvItem.gd" id="1_i28nf"]
+[ext_resource type="Texture2D" uid="uid://wfclnmt3gvoo" path="res://assets/items/gesintuvas.png" id="2_murxa"]
+
+[resource]
+script = ExtResource("1_i28nf")
+name = "fire extinguisher"
+texture = ExtResource("2_murxa")

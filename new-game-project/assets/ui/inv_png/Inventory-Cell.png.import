@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wfclnmt3gvoo"
-path="res://.godot/imported/gesintuvas.png-470ec5493c2845622c22d9917a556c1f.ctex"
+uid="uid://dnx5tiqucn6th"
+path="res://.godot/imported/Inventory-Cell.png-943c210d719bb4a246f6350528451039.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/gesintuvas.png"
-dest_files=["res://.godot/imported/gesintuvas.png-470ec5493c2845622c22d9917a556c1f.ctex"]
+source_file="res://assets/ui/inv_png/Inventory-Cell.png"
+dest_files=["res://.godot/imported/Inventory-Cell.png-943c210d719bb4a246f6350528451039.ctex"]
 
 [params]
 

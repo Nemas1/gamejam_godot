@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1nv763lp0ybj"
-path="res://.godot/imported/kibirasfull.png-cce461d46ad3ee55e3b87b6283e27131.ctex"
+uid="uid://b2esuhlauol7y"
+path="res://.godot/imported/Inventory_1.png-62c641fd336e0c4ae3d230eb14e5e29f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/kibirasfull.png"
-dest_files=["res://.godot/imported/kibirasfull.png-cce461d46ad3ee55e3b87b6283e27131.ctex"]
+source_file="res://assets/ui/inv_png/Inventory_1.png"
+dest_files=["res://.godot/imported/Inventory_1.png-62c641fd336e0c4ae3d230eb14e5e29f.ctex"]
 
 [params]
 

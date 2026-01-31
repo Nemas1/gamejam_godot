@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b51aqdj4x8si4"
-path="res://.godot/imported/medkit.png-f01e8c1a4a7d8b4df791c9a7705c58f4.ctex"
+uid="uid://bk28dau4l3qkv"
+path="res://.godot/imported/Inventory-Chosen.png-06a4a1dcc12024a1ea8dfb79bb6f9aa2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/medkit.png"
-dest_files=["res://.godot/imported/medkit.png-f01e8c1a4a7d8b4df791c9a7705c58f4.ctex"]
+source_file="res://assets/ui/inv_png/Inventory-Chosen.png"
+dest_files=["res://.godot/imported/Inventory-Chosen.png-06a4a1dcc12024a1ea8dfb79bb6f9aa2.ctex"]
 
 [params]
 
