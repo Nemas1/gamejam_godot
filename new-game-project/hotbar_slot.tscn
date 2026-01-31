@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://c2xchaac5hm0g"]
+
+[ext_resource type="Texture2D" uid="uid://dnx5tiqucn6th" path="res://assets/ui/Inventory-Cell.png" id="1_1a228"]
+
+[node name="hotbar_slot" type="Button" unique_id=470398891]
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="background" type="Sprite2D" parent="." unique_id=1252276872]
+texture = ExtResource("1_1a228")
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1135914497]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
