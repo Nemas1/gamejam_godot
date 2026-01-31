@@ -81,8 +81,19 @@
 [ext_resource type="Texture2D" uid="uid://b3yb76obicymk" path="res://assets/Objects/Nature/Bleak-Yellow/Tree_10_Small-oak_Bleak-Yellow.png" id="79_xf0bt"]
 [ext_resource type="Texture2D" uid="uid://ciq1bwxx60fww" path="res://assets/Objects/Nature/Flowers_Mashrooms_Other-nature-stuff/Tree_4_Dry_Green.png" id="80_8emfv"]
 [ext_resource type="Texture2D" uid="uid://gjpd48mhybq4" path="res://assets/Objects/Nature/Flowers_Mashrooms_Other-nature-stuff/Tree-trunk_1_Green.png" id="81_wyv8h"]
+<<<<<<< HEAD
+[ext_resource type="PackedScene" uid="uid://4pqund3nukl7" path="res://node_2d.tscn" id="82_mosxj"]
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+[ext_resource type="PackedScene" uid="uid://e3ar65my3woy" path="res://node_2d.tscn" id="82_mosxj"]
+>>>>>>> Stashed changes
+=======
 [ext_resource type="PackedScene" uid="uid://e3ar65my3woy" path="res://node_2d.tscn" id="82_mosxj"]
 [ext_resource type="PackedScene" uid="uid://iak6fbg2dqtc" path="res://World2.tscn" id="83_6i084"]
+>>>>>>> neluzes
+>>>>>>> 652c46cd361469d312297214070db7d0ad9b363b
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_43o5b"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -545,8 +556,10 @@ texture = ExtResource("1_uoqbt")
 3:5/0 = 0
 3:5/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 4:5/0 = 0
+4:5/0/terrain_set = 0
 4:5/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 5:5/0 = 0
+5:5/0/terrain_set = 0
 5:5/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 6:5/0 = 0
 6:5/0/terrain_set = 0
@@ -627,8 +640,10 @@ texture = ExtResource("1_uoqbt")
 3:6/0 = 0
 3:6/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 4:6/0 = 0
+4:6/0/terrain_set = 0
 4:6/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 5:6/0 = 0
+5:6/0/terrain_set = 0
 5:6/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_43o5b")
 6:6/0 = 0
 6:6/0/terrain_set = 0
@@ -2315,7 +2330,22 @@ tile_set = SubResource("TileSet_3ncni")
 [node name="Nature" type="TileMapLayer" parent="." unique_id=1839673831]
 tile_map_data = PackedByteArray("AAAYABwAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_vl1m4")
+<<<<<<< HEAD
+
+[node name="Node2D" parent="." unique_id=802960908 instance=ExtResource("82_mosxj")]
+position = Vector2(985, 418)
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+
+[node name="Node2D" parent="." unique_id=802960908 instance=ExtResource("82_mosxj")]
+position = Vector2(985, 418)
+>>>>>>> Stashed changes
+=======
 
 [node name="Node2D" parent="." unique_id=802960908 instance=ExtResource("82_mosxj")]
 position = Vector2(983, 407)
 scene = ExtResource("83_6i084")
+>>>>>>> neluzes
+>>>>>>> 652c46cd361469d312297214070db7d0ad9b363b

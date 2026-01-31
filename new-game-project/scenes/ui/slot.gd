@@ -1,11 +1,18 @@
 extends Button
 
 @onready var backgroundSprite: Sprite2D = $background
-@onready var itemSprite: Sprite2D = $CenterContainer/Panel/item
+@onready var container: CenterContainer = $CenterContainer
+var itemStack: ItemStack
 
-func update(item: InventoryItem):
-	if !item:
-		itemSprite.visible = false
-	else:
-		itemSprite.visible = true
-		itemSprite.texture = item.texture
+func insert(isg: ItemStack):
+	itemStack = isg
+	container.add_child(itemStack)
+
+func takeItem():
+	if !itemStack:
+		return null
+
+	var item = itemStack
+	container.remove_child(itemStack)
+	itemStack = null
+	return item

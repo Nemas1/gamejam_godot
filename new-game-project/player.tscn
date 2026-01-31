@@ -249,7 +249,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Player" type="CharacterBody2D" unique_id=740609258]
+[node name="Player" type="CharacterBody2D" unique_id=740609258 groups=["player"]]
 script = ExtResource("1_2hs0m")
 inventory = ExtResource("2_dw050")
 

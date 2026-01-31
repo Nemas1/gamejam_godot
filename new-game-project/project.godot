@@ -29,6 +29,10 @@ folder_colors={
 "res://assets/": "orange"
 }
 
+[global_group]
+
+player=""
+
 [input]
 
 left={
