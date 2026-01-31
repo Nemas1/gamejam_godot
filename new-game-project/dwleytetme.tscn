@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 [gd_scene format=3 uid="uid://dqmg6bioayy10"]
+=======
+[gd_scene format=3 uid="uid://ds3ypx7ex6g2v"]
+>>>>>>> 652c46cd361469d312297214070db7d0ad9b363b
 
 [node name="Node2D" type="Node2D" unique_id=550824083]
