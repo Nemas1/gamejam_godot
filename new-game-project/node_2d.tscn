@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://4pqund3nukl7"]
+[gd_scene format=3 uid="uid://e3ar65my3woy"]
 
-[node name="Node2D" type="Node2D" unique_id=1552255469]
+[ext_resource type="Script" uid="uid://cbtxangh1jsgi" path="res://change_scene.gd" id="1_wtcfe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0e48y"]
+radius = 36.013885
+
+[node name="Node2D" type="Node2D" unique_id=1402114565]
+script = ExtResource("1_wtcfe")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2008270338]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1839538498]
+shape = SubResource("CircleShape2D_0e48y")
